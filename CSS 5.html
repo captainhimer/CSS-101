@@ -1,0 +1,44 @@
+<style media="screen">
+  .container{
+    width:50%;
+    height:200px;
+    overflow:auto;
+    margin-left: :0 auto;
+  }
+  .static{position:static; border:2px solid green;}
+  .relative{
+    positi: relative;
+    border: 2px solid red;
+    left: 20px; /*jarak dari posisi paling kiri sebesar 20px */
+    bottom: 0; /* jarak dari posisi paling bawah sebesar 0px */
+  }
+  .absolute{position: absolute; border: 2px solid blue; left: 20px; bottom: 40px;}
+  .fixed{position: fixed; border: 2px solid black; bottom 0; right 0;}
+  sticky{
+    position: sticky;
+    border:2px solid yellow;
+    top 0;
+    left:20px;
+    background: darkblue;
+    color: white;
+  }
+</style>
+<body>
+  <div class="container">
+    <p class="sticky">Ini adalah contoh dari posisi sticky</p>
+
+    <p class="static"><b>Ini adalah contoh dari posisi static</b> <br>
+    Telkom Schools[1] merupakan perubahan dari Sekolah Telkom Sandhyputra yang dikelola oleh Yayasan Sandhykara Putra Telkom (YSPT). Peluncuran Telkom Schools dilaksanakan di SMK Telkom Jakarta pada tanggal 23 Januari 2014 oleh Dirjen Pendidikan Menengah Kemendikbud RI Prof. Dr. Ir. Achmad Jazidie[2] beserta Dewan Pengurus dan Pembina Yayasan Sandhykara Putra Telkom.
+    </p>
+
+    <p class="relative"><b>Ini adalah contoh dari posisi relative</b> <br>
+    Telkom Schools[1] merupakan perubahan dari Sekolah Telkom Sandhyputra yang dikelola oleh Yayasan Sandhykara Putra Telkom (YSPT). Peluncuran Telkom Schools dilaksanakan di SMK Telkom Jakarta pada tanggal 23 Januari 2014 oleh Dirjen Pendidikan Menengah Kemendikbud RI Prof. Dr. Ir. Achmad Jazidie[2] beserta Dewan Pengurus dan Pembina Yayasan Sandhykara Putra Telkom.
+    </p>
+
+    <p class="absolute"><b>Ini adalah contoh dari posisi absolute</b> <br>
+    Telkom Schools[1] merupakan perubahan dari Sekolah Telkom Sandhyputra yang dikelola oleh Yayasan Sandhykara Putra Telkom (YSPT). Peluncuran Telkom Schools dilaksanakan di SMK Telkom Jakarta pada tanggal 23 Januari 2014 oleh Dirjen Pendidikan Menengah Kemendikbud RI Prof. Dr. Ir. Achmad Jazidie[2] beserta Dewan Pengurus dan Pembina Yayasan Sandhykara Putra Telkom.
+    </p>
+
+    <p class="fixed">ini merupakan contoh dari posisi fixed</p>
+  </div>
+</body>
